@@ -45,3 +45,6 @@ Correlation & Multicollinearity: Heatmap analysis to spot highly correlated pred
 Limitations: Linear Regression struggles with complex non-linear interactions (e.g., age might affect smokers differently than non-smokers).
 
 Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if we have many dummy variables, or try a Polynomial Regression to capture subtle non-linearity while maintaining interpretability.
+
+## Data Source
+https://www.kaggle.com/datasets/mirzayasirabdullah07/medical-insurance-cost-dataset

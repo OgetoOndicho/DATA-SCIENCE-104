@@ -51,8 +51,9 @@ Limitations: Linear Regression struggles with complex non-linear interactions (e
 Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if we have many dummy variables, or try a Polynomial Regression to capture subtle non-linearity while maintaining interpretability.
 
 
-## FOLDER_2: MACHINE LEARNING PROJECT ON...CLASSIFICATION
-### Project Name: Building a classification Algorith to model the probability whether or not it rains in Nairobi City for the date of 22nd July 2026
+
+# FOLDER_2: MACHINE LEARNING PROJECT ON...CLASSIFICATION
+## Project Name: Building a classification Algorith to model the probability whether or not it rains in Nairobi City for the date of 22nd July 2026
 - The Project utilizes historical data from weather patterns for the last 10 years from the Meteorological department to enable forecast of future weather patterns.
 
 

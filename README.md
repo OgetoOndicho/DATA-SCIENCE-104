@@ -1,9 +1,64 @@
 # DATA-SCIENCE-104
-This repository comprises of project folders and files on Machine Learning 
+This repository comprises of project folders, files and jupyternotebooks purely Machine Learning. 
 
-## FOLDER_1: MACHINE LERNING PROJECT ON MEDICAL EXPENSES AND COST AT A HEALTH FACILITY
-### Project_Name: Health Charges Predictive Modelling.
-- This is predictive modelling project with the overall objective to Predict Medical Expense Charges at Health is Wealth Medicare, a Nairobi Based Medical Facility. The stakeholders would love to understand which combination of factors contribute to the most charges at the facility.
+# FOLDER_1: MACHINE LERNING PROJECT ON MEDICAL EXPENSES AT A HEALTH FACILITY.
+## Project Title: Predictive Modelling for Annual Medical Costs.
+- Under this project, I built a Linear Regression Model to enable predict a patient's annual medical cost based on demographic, lifestyle, clinical, and financial features.
+
+## Statemet of the Problem
+Problem: Healthcare costs are complex, but actuaries need transparent, auditable models to set premiums and allocate budgets.
+
+## Objective: 
+- To develop a Regression model with complete accuracy  adhering to Linear Regression assumptions, ensuring that every feature's coefficient is statistically significant and logically sound (e.g., older age must correlate with higher costs).
+
+## PROJECT Outline
+Data Preprocessing & Feature Engineering (Crucial for Linear Reg)
+Handling Categoricals: Converting smoker, gender, region, insurance_plan, and occupation into numerical dummy variables (One-Hot Encoding) while avoiding the Dummy Variable Trap.
+
+Scaling Decision: Discussing why scaling (StandardScaler/MinMax) is not strictly necessary for interpreting coefficients in Linear Regression, but might be applied to improve gradient descent convergence if using SGDRegressor.
+
+Log-Transformation: Assessing if annual_medical_cost_usd is right-skewed. If so, applying a log-transformation to the target variable to satisfy the normality of residuals assumption (and later exponentiating coefficients for interpretation).
+
+4. Exploratory Data Analysis (The "Pre-Model" Check)
+Linearity Check: Scatter plots with lowess smoothing to visually confirm that continuous features (age, bmi, income) have a roughly linear relationship with the log of cost.
+
+Correlation & Multicollinearity: Heatmap analysis to spot highly correlated predictors (e.g., age and doctor_visits). High multicollinearity inflates coefficient variance, so we calculate Variance Inflation Factor (VIF) early to drop redundant features.
+
+## Building on the Model
+- Used Train-Test Split: 80/20 split with random_state=42 for reproducibility.
+- Model Fitting: Used statsmodels (for detailed summary tables) and sklearn.linear_model.LinearRegression (for predictions).
+- Performance Metrics: Referenced R-squared & Adjusted R-square to enable account for the number of predictors added, Root Mean Squared Error (RMSE): To understand prediction error in actual dollars and Mean Absolute Error (MAE): For a robust, non-penalized error metric.
+
+## Evaluating the  Model Diagnostics 
+- In order (The "Make or Break" for Linear Reg - Highly Valued by Interviewers)
+Residuals vs. Fitted Plot: Checking for homoscedasticity (constant variance). If heteroscedastic, consider robust standard errors.
+
+Q-Q Plot (Normal P-P Plot): Checking if the residuals follow a normal distribution. If skewed, justifies my decision to log-transform the target.
+
+Multicollinearity Check: Running VIF post-model to ensure no VIF > 10, confirming our coefficients are stable.
+
+7. Key Findings & Coefficient Interpretation (The "Money" Section)
+Example findings (placeholders for your actual numbers):
+
+The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
+
+The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
+
+Regional Arbitrage: Patients in the Southeast region have costs $X,XXX higher than the baseline Northeast, likely due to lifestyle clustering.
+
+Insurance Plan Efficiency: Enrolling in Plan C correlates with an $X,XXX decrease in annual cost compared to the baseline, suggesting it covers more preventive care.
+
+8. Business Recommendations (Derived from the Co-efficients)
+For Underwriting: Flag smokers immediately; the model justifies a specific premium surcharge of $X,XXX.
+
+For Policy Makers: Since BMI has a low coefficient relative to smoking, prioritize smoking-cessation subsidies over general weight-loss programs for immediate financial ROI.
+
+For Forecasting: Use the RMSE range to build a "Cost Confidence Interval" for budget planning for the next fiscal year.
+
+9. Limitations & Next Steps
+Limitations: Linear Regression struggles with complex non-linear interactions (e.g., age might affect smokers differently than non-smokers).
+
+Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if we have many dummy variables, or try a Polynomial Regression to capture subtle non-linearity while maintaining interpretability.
 
 
 ## FOLDER_2: MACHINE LEARNING PROJECT ON...CLASSIFICATION

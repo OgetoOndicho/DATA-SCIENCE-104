@@ -30,25 +30,17 @@ Correlation & Multicollinearity: Heatmap analysis to spot highly correlated pred
 - Performance Metrics: Referenced R-squared & Adjusted R-square to enable account for the number of predictors added, Root Mean Squared Error (RMSE): To understand prediction error in actual dollars and Mean Absolute Error (MAE): For a robust, non-penalized error metric.
 
 ## Evaluating the  Model Diagnostics 
-- In order (The "Make or Break" for Linear Reg - Highly Valued by Interviewers)
-Residuals vs. Fitted Plot: Checking for homoscedasticity (constant variance). If heteroscedastic, consider robust standard errors.
+- The Model was then evaluated based off Linear Regresssion Assumptions to determine its effectiveness at Predictions.
 
-Q-Q Plot (Normal P-P Plot): Checking if the residuals follow a normal distribution. If skewed, justifies my decision to log-transform the target.
+#  Findings & Interpretation 
+ 1. Example findings (placeholders for your actual numbers):
 
-Multicollinearity Check: Running VIF post-model to ensure no VIF > 10, confirming our coefficients are stable.
+ 2.The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
 
-7. Key Findings & Coefficient Interpretation (The "Money" Section)
-Example findings (placeholders for your actual numbers):
+ 3.The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
 
-The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
 
-The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
-
-Regional Arbitrage: Patients in the Southeast region have costs $X,XXX higher than the baseline Northeast, likely due to lifestyle clustering.
-
-Insurance Plan Efficiency: Enrolling in Plan C correlates with an $X,XXX decrease in annual cost compared to the baseline, suggesting it covers more preventive care.
-
-8. Business Recommendations (Derived from the Co-efficients)
+## Recommendations (Derived from the Co-efficients)
 For Underwriting: Flag smokers immediately; the model justifies a specific premium surcharge of $X,XXX.
 
 For Policy Makers: Since BMI has a low coefficient relative to smoking, prioritize smoking-cessation subsidies over general weight-loss programs for immediate financial ROI.

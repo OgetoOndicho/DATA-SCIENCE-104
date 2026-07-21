@@ -19,7 +19,7 @@ Scaling Decision: Discussing why scaling (StandardScaler/MinMax) is not strictly
 
 Log-Transformation: Assessing if annual_medical_cost_usd is right-skewed. If so, applying a log-transformation to the target variable to satisfy the normality of residuals assumption (and later exponentiating coefficients for interpretation).
 
-4. Exploratory Data Analysis (The "Pre-Model" Check)
+Exploratory Data Analysis (The "Pre-Model" Check)
 Linearity Check: Scatter plots with lowess smoothing to visually confirm that continuous features (age, bmi, income) have a roughly linear relationship with the log of cost.
 
 Correlation & Multicollinearity: Heatmap analysis to spot highly correlated predictors (e.g., age and doctor_visits). High multicollinearity inflates coefficient variance, so we calculate Variance Inflation Factor (VIF) early to drop redundant features.
@@ -32,22 +32,20 @@ Correlation & Multicollinearity: Heatmap analysis to spot highly correlated pred
 ## Evaluating the  Model Diagnostics 
 - The Model was then evaluated based off Linear Regresssion Assumptions to determine its effectiveness at Predictions.
 
-#  Findings & Interpretation 
+##  Findings & Interpretation 
  1. Example findings (placeholders for your actual numbers):
-
- 2.The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
-
- 3.The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
+ 2. The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
+ 3. The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
 
 
 ## Recommendations (Derived from the Co-efficients)
-For Underwriting: Flag smokers immediately; the model justifies a specific premium surcharge of $X,XXX.
+- For Underwriting: Flag smokers immediately; the model justifies a specific premium surcharge of $X,XXX.
 
-For Policy Makers: Since BMI has a low coefficient relative to smoking, prioritize smoking-cessation subsidies over general weight-loss programs for immediate financial ROI.
+- For Policy Makers: Since BMI has a low coefficient relative to smoking, prioritize smoking-cessation subsidies over general weight-loss programs for immediate financial ROI.
 
-For Forecasting: Use the RMSE range to build a "Cost Confidence Interval" for budget planning for the next fiscal year.
+- For Forecasting: Use the RMSE range to build a "Cost Confidence Interval" for budget planning for the next fiscal year.
 
-9. Limitations & Next Steps
+## Limitations & Next Steps
 Limitations: Linear Regression struggles with complex non-linear interactions (e.g., age might affect smokers differently than non-smokers).
 
 Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if we have many dummy variables, or try a Polynomial Regression to capture subtle non-linearity while maintaining interpretability.

@@ -18,7 +18,7 @@ Problem: Healthcare costs are complex, but actuaries need transparent, auditable
 
 
 ## Building on the Model
-- Used Train-Test Split: 70/30 split with random_state=42 for reproducibility.
+- Used Train-Test Split: 70/30 split with random_state=42 for results reproducibility.
 - Model Fitting: Used statsmodels (for detailed summary tables) and sklearn.linear_model.LinearRegression (for predictions).
 - Performance Metrics: Referenced R-squared & Adjusted R-square to enable account for the number of predictors added, Root Mean Squared Error (RMSE): To understand prediction error in actual dollars and Mean Absolute Error (MAE): For a robust, non-penalized error metric.
 

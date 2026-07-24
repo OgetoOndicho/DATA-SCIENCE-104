@@ -43,3 +43,9 @@ Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if w
 
 ## Data Source
 https://www.kaggle.com/datasets/mirzayasirabdullah07/medical-insurance-cost-dataset
+
+
+## HOW TO RUN THE PROJECT
+- First Install dependencies: pip install pandas, numpy,scikit-learn etc.
+- The run the Predicting Medical Expenses.ipynb to go through my entire project data.
+

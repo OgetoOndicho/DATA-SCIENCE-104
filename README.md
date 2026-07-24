@@ -10,9 +10,8 @@
 
 
  
- ### FOLDER_2: MACHINE LEARNING PROJECT ON...CLASSIFICATION
-- Building a classification Algorith to model the probability whether or not it rains in Nairobi City for the date of 22nd July 2026
-- The Project utilizes historical data from weather patterns for the last 10 years from the Meteorological department to enable forecast of future weather patterns.
+ ### FOLDER_2: MACHINE LEARNING PROJECT ON CLASSIFICATION STUDENTS COLLEGE PLACEMENT
+- Built a Logistic Classification Algorith to Model the probability of Students receiving successful placement to College based on their respective individual performances.
 
 
 

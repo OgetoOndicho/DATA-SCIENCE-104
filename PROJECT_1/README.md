@@ -18,28 +18,15 @@ Problem: Healthcare costs are complex, but actuaries need transparent, auditable
 
 
 ## Building on the Model
-- Used Train-Test Split: 70/20 split with random_state=42 for reproducibility.
+- Used Train-Test Split: 70/30 split with random_state=42 for reproducibility.
 - Model Fitting: Used statsmodels (for detailed summary tables) and sklearn.linear_model.LinearRegression (for predictions).
 - Performance Metrics: Referenced R-squared & Adjusted R-square to enable account for the number of predictors added, Root Mean Squared Error (RMSE): To understand prediction error in actual dollars and Mean Absolute Error (MAE): For a robust, non-penalized error metric.
 
 
 ##  Findings & Interpretation 
- 1. Example findings (placeholders for your actual numbers):
- 2. The "Smoker Tax": All else being equal, being a smoker increases annual medical costs by $X,XXX (p < 0.001).
- 3. The Age Premium: Every additional year of age increases costs by $XXX, holding BMI and exercise constant.
+ 1. Each of the predictor variable: Chronic disease, Doctor visits, Number of hospitalizations, Smoking habits and Insurance plans are significant in Predicting the Annual Medical Cost at Trade Global Health Center. (P-value < 0.05).
+ 2. With the addition of More feature variables into the model, accuracy of the model improved from 24% to 84% giving confidence that the model is suitable for practical real life use cases at the health facility.
 
-
-## Recommendations (Derived from the Co-efficients)
-- For Underwriting: Flag smokers immediately; the model justifies a specific premium surcharge of $X,XXX.
-
-- For Policy Makers: Since BMI has a low coefficient relative to smoking, prioritize smoking-cessation subsidies over general weight-loss programs for immediate financial ROI.
-
-- For Forecasting: Use the RMSE range to build a "Cost Confidence Interval" for budget planning for the next fiscal year.
-
-## Limitations & Next Steps
-Limitations: Linear Regression struggles with complex non-linear interactions (e.g., age might affect smokers differently than non-smokers).
-
-Next Steps: Build a Regularized version (Ridge/Lasso) to reduce overfitting if we have many dummy variables, or try a Polynomial Regression to capture subtle non-linearity while maintaining interpretability.
 
 ## Data Source
 https://www.kaggle.com/datasets/mirzayasirabdullah07/medical-insurance-cost-dataset

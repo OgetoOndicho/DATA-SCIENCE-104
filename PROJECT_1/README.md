@@ -1,4 +1,4 @@
-## Project Title: Predictive Modelling for Annual Medical Costs.
+## Project Title: Predictive Modelling for Annual Medical Costs at Health Center
 - Under this project, I built a Linear Regression Model to enable predict a patient's annual medical cost based on demographic, lifestyle, clinical, and financial features.
 
 ## Statemet of the Problem

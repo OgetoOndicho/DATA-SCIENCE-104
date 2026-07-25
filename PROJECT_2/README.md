@@ -3,11 +3,10 @@
 ## Problem Statement:
 
 ## Objectives:
--
--
--
+- To classify correctly the number of students placed to College and the number of students not placed to college based on academic and behavioral factors.
 
 ## Project Outline
+-1.
 
 
 ## Data Source

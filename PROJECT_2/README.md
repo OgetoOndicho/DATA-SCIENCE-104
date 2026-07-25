@@ -3,10 +3,16 @@
 ## Problem Statement:
 
 ## Objectives:
-- To classify correctly the number of students placed to College and the number of students not placed to college based on academic and behavioral factors.
+- To develop a model that classifies correctly the number of students placed to College and the number of students not placed to college based on academic and behavioral factors.
 
 ## Project Outline
-1.
+1. Data Preprocessing: Importing, reading and storing the dataset.
+2. Cleaning and proper structuring of the dataset.
+3. Feature Selection to enable model building.
+4. Handling Categoricals by converting the Target Variable [Placement Status]
+5. Feature Scaling of Variables
+6. Model Building.
+7. Model Evaluation. Used a Confusion Matrix to evaluate how accurate, the developed model is at making predictions on Students Placement status to college.
 
 
 ## Data Source

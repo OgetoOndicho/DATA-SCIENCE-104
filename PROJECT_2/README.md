@@ -1,7 +1,7 @@
 ## PROJECT TITLE: LOGISTIC REGERESSION MODEL TO CLASSIFY STUDENTS COLLEGE PLACEMENT
 
 ## Problem Statement: 
-This project aims to develop a Classification Algorithm to enable stakeholders at the Examination Council of Kenya to make prediction about the Most determinant factors that will affect student's placement from high school level to college
+- This project aims to develop a Classification Algorithm to enable stakeholders at the Examination Council of Kenya to make prediction about the Most determinant factors that will affect student's placement from high school level to college
 
 ## Objectives:
 - To develop a model that classifies correctly the number of students placed to college and the number of students not placed to college based on academic and behavioral factors.

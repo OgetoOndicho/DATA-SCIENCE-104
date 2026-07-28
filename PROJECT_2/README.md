@@ -23,4 +23,4 @@
 
 ## Running and Contribution to the Project:
 - First Install dependencies: pip install pandas, numpy, scikit-learn etc.
-- The run the Students Classification Modelling.ipynb file to go through my entire project data
+- The run the Students Placement Classification Model.ipynb file to go through my entire project data

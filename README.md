@@ -1,5 +1,5 @@
 # DATA-SCIENCE-104
-- This repository comprises of project folders, files and jupyternotebooks purely for Machine Learning and Artificial Intelligence.
+- This repository comprises of project folders, files and jupyternotebooks purely for Machine Learning and Artificial Intelligence. In the process of Learning and practising coursework theory,  of mastering Machine Learning Frameworks, these are some of the projects im building 
 - Refer to each and every individual Folder Directory for precise notebook analysis on the various projects.
 
 

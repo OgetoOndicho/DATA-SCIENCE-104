@@ -1,6 +1,10 @@
 # DATA-SCIENCE-104
 - This repository comprises of project folders, files and jupyternotebooks purely for Machine Learning and Artificial Intelligence. In the process of Learning and practising coursework theory,  of mastering Machine Learning Frameworks, these are some of the projects im building 
 - Refer to each and every individual Folder Directory for precise notebook analysis on the various projects.
+The projects are divided into 3 Distinct Parts:
+ 1. Regression Modelling
+ 2. Classification Moddelling
+ 3. Supervised Learning techniques.
 
 
 ## OVERVIEW OF THE PROJECTS.

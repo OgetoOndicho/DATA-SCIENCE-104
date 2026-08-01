@@ -1,9 +1,9 @@
 # DATA-SCIENCE-104
-- This repository comprises of project folders, files and jupyternotebooks purely for Machine Learning and Artificial Intelligence. In the process of Learning and practising coursework theory,  of mastering Machine Learning Frameworks, these are some of the projects im building 
+- This repository comprises of project folders, files and Jupyter notebooks purely for Machine Learning and Artificial Intelligence. In the process of Learning and practicing foundational coursework knowledge in mastering Machine Learning Frameworks, these are some of the projects I'm building to showcase my understanding 
 - Refer to each and every individual Folder Directory for precise notebook analysis on the various projects.
 The projects are divided into 3 Distinct Parts:
- 1. Regression Modelling
- 2. Classification Moddelling
+ 1. Linear Regression Modelling
+ 2. Logistic / Classification Modelling
  3. Supervised Learning techniques.
 
 
@@ -14,8 +14,8 @@ The projects are divided into 3 Distinct Parts:
 
 
  
- ### FOLDER_2: MACHINE LEARNING PROJECT ON CLASSIFICATION STUDENTS COLLEGE PLACEMENT
-- Built a Logistic Classification Algorith to Model the probability of Students receiving successful placement to College based on their respective individual performances.
+ ### FOLDER_2: MACHINE LEARNING PROJECT ON CLASSIFICATION STUDENTS' COLLEGE PLACEMENT
+- Built a Logistic Classification Algorithm to Model the probability of Students receiving successful placement to college based on their respective individual performances.
 
 
 

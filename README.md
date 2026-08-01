@@ -15,7 +15,7 @@ The projects are divided into 3 Distinct Parts:
 
  
  ### FOLDER_2: MACHINE LEARNING PROJECT ON CLASSIFICATION STUDENTS' COLLEGE PLACEMENT
-- Built a Logistic Classification Algorithm to Model the probability of Students receiving successful placement to college based on their respective individual performances.
+- Built a Logistic Classification Algorithm to Model the probability of Students receiving successful placement to college based on their respective Academic and Behavioral factors.
 
 
 

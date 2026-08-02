@@ -23,6 +23,7 @@ The Main Objective for this project is to:
 
 
 ## **Data Source**
+The dataset used was sourced from Kaggle: A Secondary platform. The link to download the dataset can be clicked here: https://www.kaggle.com/datasets/mobeenfatimah/student-career-success-prediction-dataset
 
 
 
